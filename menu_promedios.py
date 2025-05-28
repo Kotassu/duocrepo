@@ -3,11 +3,11 @@ while True:
     opc = int(input("¿Que desea hacer?\n1. Agregar nota\n2. Calcular promedio\n3. Salir\n"))
     
     if opc == 1:
-        cant_notas = int(input("¿Cuantas notas desea agregar?"))
+        cant_notas = int(input("¿Cuantas notas desea agregar?\n"))
         list_notas = []
         for i in range(cant_notas):
             i += 1
-            notas = int(input(f"Ingrese la nota N°{i}: "))
+            notas = int(input(f"Ingrese la nota N°{i}:\n"))
             list_notas.append(notas)
     elif opc == 2:
         suma = 0
