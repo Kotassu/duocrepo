@@ -5,10 +5,8 @@ while True:
     if opc == 1:
         cant_notas = int(input("¿Cuantas notas desea agregar?\n"))
         list_notas = []
-        for i in range(cant_notas):
-            i += 1
-            notas = int(input(f"Ingrese la nota N°{i}:\n"))
-            list_notas.append(notas)
+        notas = int(input("Ingrese la nota: "))
+        list_notas.append(notas)
     elif opc == 2:
         suma = 0
         for nota in list_notas:
